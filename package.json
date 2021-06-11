@@ -1,0 +1,32 @@
+{
+    "name": "jstextfindandreplace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hemashushu/jstextfindandreplace.git"
+    },
+    "keywords": [
+        "text",
+        "editor"
+    ],
+    "author": "Hippo Spark <hippospark@gmail.com> (https://twitter.com/hemashushu)",
+    "license": "SEE LICENSE IN <LICENSE.md>",
+    "bugs": {
+        "url": "https://github.com/hemashushu/jstextfindandreplace/issues"
+    },
+    "homepage": "https://github.com/hemashushu/jstextfindandreplace#readme",
+    "devDependencies": {
+        "mocha": "^8.4.0"
+    },
+    "dependencies": {
+        "jsexception": "github:hemashushu/jsexception",
+        "jsstringutils": "github:hemashushu/jsstringutils",
+        "jstextlinereader": "github:hemashushu/jstextlinereader",
+        "jstextselection": "github:hemashushu/jstextselection"
+    }
+}
